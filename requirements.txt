@@ -1,0 +1,18 @@
+# Nexus MoA Pipeline Dependencies
+# ================================
+# Required for Open WebUI Pipeline operation
+
+# Async HTTP client for Ollama API calls
+aiohttp>=3.9.0
+
+# Configuration validation and Valves support
+pydantic>=2.5.0
+
+# Note: The following are typically provided by Open WebUI's runtime:
+# - asyncio (Python stdlib)
+# - logging (Python stdlib)
+# - typing (Python stdlib)
+# - dataclasses (Python stdlib)
+# - enum (Python stdlib)
+# - time (Python stdlib)
+# - os (Python stdlib)
